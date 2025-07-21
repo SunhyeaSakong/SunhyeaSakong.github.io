@@ -13,8 +13,8 @@ if uploaded_file is not None:
     st.dataframe(df.head())
 
     if 'Hogwarts House' in df.columns:
-        x = st.selectbox("X-axis", df.columns)
-        y = st.selectbox("Y-axis", df.columns)
+        x = st.selectbox("X-axis", numeric_cols)
+        y = st.selectbox("Y-axis", numeric_cols)
 
         st.write(f"### Scatterplot: {x} vs {y} by House")
         fig, ax = plt.subplots()
