@@ -1,3 +1,14 @@
+metadata
+
+title: My Streamlit App
+emoji: 🧪
+colorFrom: purple
+colorTo: pink
+sdk: streamlit
+sdk_version: 1.35.0
+app_file: app.py
+pinned: false
+
 # Hogwarts Data Visualizer
 
 This is a Streamlit web app that allows users to explore Hogwarts student data, visualize relationships between features, and optionally students by house.
@@ -21,7 +32,7 @@ This is a Streamlit web app that allows users to explore Hogwarts student data, 
 3. Start the app:
     streamlit run app.py
     ## Sample data
-        You can try the app using the example file in `data/dataset_train.csv`.
+        You can try the app using the example file in `dataset_train.csv`.
 
 
 
